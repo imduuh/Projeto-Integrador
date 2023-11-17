@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "metropolislight";
+    src: url(../font/metropolis-light-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "metropolissemi_bold";
+    src: url(../font/metropolis-semibold-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "metropolislight", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background: hsla(0, 0%, 90%, 0.35);
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+
+.headerRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.whatsapp a {
+    color: hsl(0, 0%, 7%);
+}
+
+.whatsapp .icon {
+    font-size: 1.7rem;
+    padding-right: 13px;
+}
+
+.whatsapp span {
+    font-size: 0.8rem;
+}

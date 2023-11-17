@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.cartContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.cartItemsContainer {
+    overflow-x: auto;
+}
+
+.cartItems {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cartItems th,
+.cartItems td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cartItems th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #333;
+}
+
+.quantityControls {
+    display: flex;
+    align-items: center;
+}
+
+.quantityControls button {
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+}
+
+.quantityControls button:hover {
+    background-color: #ddd;
+}
+
+.quantityValue {
+    padding: 0 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.totalPrice {
+    font-weight: bold;
+}
+
+.cartTotal {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.cartTotalText {
+    font-weight: bold;
+}
+
+.checkoutButton {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.checkoutButton:hover {
+    background-color: #ff8533;
+}
+
+.userInformation {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userInformation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.userInformation form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.userInformation label {
+    float: left;
+    font-weight: bold;
+    flex-basis: 100%;
+}
+
+.userInformation input[type="text"],
+.userInformation input[type="tel"] {
+    flex-basis: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.userInformation input[type="text"]:focus,
+.userInformation input[type="tel"]:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+.userInformation button {
+    flex-basis: 100%;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.userInformation button:hover {
+    background-color: #ff8533;
+}
+
+legend {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+  }
+
+  fieldset {
+    width: 100%;
+  }

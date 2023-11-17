@@ -1,0 +1,60 @@
+footer {
+    background: hsl(0, 4%, 91%);
+}
+
+.footerRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerNav, 
+.footerInfos, 
+.footerNewsletter {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: left;
+    padding: 38px;
+}
+
+/* Nav */
+.footerNav {
+    margin-left: 45px;
+}
+
+.footerTitle h5 {
+    font-family: "metropolissemi_bold", sans-serif;
+    font-size: 1rem;
+}
+
+.footerMenu li {
+    margin: 9px 0;
+}
+
+.footerMenu li:first-child {
+    margin-top: 0;
+}
+
+.footerMenu a {
+    color: hsl(0, 0%, 7%);
+    font-size: 0.87rem;
+}
+
+.footerImage {
+    display: flex;
+}
+
+.footerImage div:first-child {
+    justify-content: left;
+    margin-right: 25px;
+}
+
+.footerImage div svg {
+    width: 28px;
+}
+
+.footerImage p {
+    font-size: 0.87rem;
+}
